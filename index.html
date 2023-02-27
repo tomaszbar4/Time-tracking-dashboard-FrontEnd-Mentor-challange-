@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin: 1rem;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="profile-information">
+      <div class="main-information"><img id="profile-picture" src="image-jeremy.png" alt="">
+        <div class="additional-information">
+          <span>Report for</span>
+          <h1 id="name">Jeremy Robson</h1>
+        </div>
+      </div>
+      <div class="switch">
+        <span class="switch-item active" data-value="daily" data-value="" id="daily">Daily</span>
+        <span class="switch-item" data-value="weekly" id="weekly">Weekly</span>
+        <span class="switch-item" data-value="monthly" id="monthly">Monthly</span>
+      </div>
+    </div>
+    <div class="activity-item">
+      <div class="activity-picture"><img src="icon-work.svg" alt=""></div>
+      <div class="activity-information">
+        <span class="activity-name">Work<img src="icon-ellipsis.svg"></span>
+        <div class="activity-time-items">
+          <span class="activity-time-current">32hrs</span>
+          <span class="activity-time-previous">Last Week - 36hrs</span>
+        </div>
+      </div>
+    </div>
+    <div class="activity-item">
+      <div class="activity-picture"><img src="icon-play.svg" alt=""></div>
+      <div class="activity-information">
+        <span class="activity-name">Play<img src="icon-ellipsis.svg"></span>
+        <div class="activity-time-items">
+          <span class="activity-time-current">32hrs</span>
+          <span class="activity-time-previous">Last Week - 36hrs</span>
+        </div>
+      </div>
+    </div>
+    <div class="activity-item">
+      <div class="activity-picture"><img src="icon-study.svg" alt=""></div>
+      <div class="activity-information">
+        <span class="activity-name">Study<img src="icon-ellipsis.svg"></span>
+        <div class="activity-time-items">
+          <span class="activity-time-current">32hrs</span>
+          <span class="activity-time-previous">Last Week - 36hrs</span>
+        </div>
+      </div>
+    </div>
+    <div class="activity-item">
+      <div class="activity-picture exercise"><img src="icon-exercise.svg" alt=""></div>
+      <div class="activity-information">
+        <span class="activity-name">Exercise<img src="icon-ellipsis.svg"></span>
+        <div class="activity-time-items">
+          <span class="activity-time-current">32hrs</span>
+          <span class="activity-time-previous">Last Week - 36hrs</span>
+        </div>
+      </div>
+    </div>
+    <div class="activity-item">
+      <div class="activity-picture"><img src="icon-social.svg" alt=""></div>
+      <div class="activity-information">
+        <span class="activity-name">Social<img src="icon-ellipsis.svg"></span>
+        <div class="activity-time-items">
+          <span class="activity-time-current">32hrs</span>
+          <span class="activity-time-previous">Last Week - 36hrs</span>
+        </div>
+      </div>
+    </div>
+    <div class="activity-item">
+      <div class="activity-picture"><img src="icon-self-care.svg" alt=""></div>
+      <div class="activity-information">
+        <span class="activity-name">Self Care<img src="icon-ellipsis.svg"></span>
+        <div class="activity-time-items">
+          <span class="activity-time-current">32hrs</span>
+          <span class="activity-time-previous">Last Week - 36hrs</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Tomasz Bartnikiewicz</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
